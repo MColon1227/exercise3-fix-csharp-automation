@@ -4,11 +4,11 @@ Scenario: Login Amazon oage with the correct credentials
 	Given I have to navigate to the Amazon page 
 	And I enter username
 	| username                   |
-	| marisolcolon1227@gmail.com |
+	| test |
 	And I click the continue button
 	And I enter the password
 	| password |
-	| 4m4z0n1! |
+	| test |
 	Then I click the login button
     And I search for product: Samsung Galaxy S9 64GB
     And I Select first product and save the price And Click on the product
